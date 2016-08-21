@@ -1,0 +1,116 @@
+body{
+    background-color: white;
+}
+
+.left{
+    display:inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-left: 100px;
+    width: 400px;
+    height: 100%;
+    border: red solid 1px;
+}
+
+.right{
+    display:inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 400px;
+    height: 100%;
+    border: red solid 1px;
+}
+
+.main-block{
+    position:relative;
+    width:390px;
+    margin:0;
+    border:solid rosybrown 2px;
+}
+
+.main-block .block-decoration{
+    display:block;
+    padding: 0px 25%;
+;
+}
+
+.main-block h1{
+    padding: 0;
+    margin: 0;
+    color:black;
+    font-size:10px;
+}
+
+.main-block .main-name{
+    font-size:15px;
+}
+
+.main-block .main-surname{
+    font-size:20px;
+}
+
+.block{
+    margin:10px;
+    position:relative;
+}
+
+.block-title{
+    display:inline;
+    position:absolute;
+    top:0px;
+    left:80px;
+    font-size:30px;
+    color:rgb(61,108,176);
+    background-color:white;
+    padding-right:10px;
+}
+
+#skills-canvas{
+    magrin:0;
+    border:red solid 1px;
+}
+
+.education-content{    position:relative;}
+
+.education-content li{    list-style: none;}
+
+.education-content .first-line{
+    font-size:15px;
+    margin:0;
+}
+
+.education-content .second-line{
+    font-size:15px;
+    margin:0;
+}
+
+.education-content .first-line strong{
+    color:blue;
+    padding-right:10px;
+}
+
+.dot{
+    position:absolute;
+    left:10px;
+}
+
+.experience-content{    position:relative;}
+
+.experience-content li{    list-style: none;}
+
+.experience-content .first-line{
+    font-size:15px;
+    margin:0;
+}
+
+.experience-content .second-line{
+    font-size:15px;
+    margin:0;
+}
+
+.experience-content .first-line strong{
+    color:black;
+    padding-right:10px;
+}

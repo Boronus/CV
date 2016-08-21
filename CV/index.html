@@ -2,9 +2,203 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <title>My CV</title>
+    <script src="drawing.js" type="text/javascript"></script>
 </head>
-<body>
+<body onLoad="bb()">
+    <div class="left">
+        <div class="main-block">
+            <div class="block-header">
+                <div  class="block-decoration">
+                    <svg width="200" height="180">
+                        <circle r="70" cx="100" cy="100" fill="rgb(61,108,176)"/>
+                        <circle r="75" cx="100" cy="100" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    </svg>
+                </div>
+                <h1 class="main-name">NAME HERE</h1>
+                <h1 class="main-surname">SURNAME</h1>
+                <h1 class="main-position">GRAPHIC DESIGNER</h1>
+            </div>
 
+        </div>
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="profile-content">
+                    Text here
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="contact-content">
+                    <table>
+                        <tr>
+                            <td class="contact-field-name">ADDRESS</td>
+                            <td class="contact-field">Street</td>
+                        </tr>
+                        <tr>
+                            <td class="contact-field-name">E-MAIL</td>
+                            <td class="contact-field">contact</td>
+                        </tr>
+                        <tr>
+                            <td class="contact-field-name">PHONE</td>
+                            <td class="contact-field">666-111</td>
+                        </tr>
+                        <tr>
+                            <td class="contact-field-name">WEBSITE</td>
+                            <td class="contact-field">bieber.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="skills-content">
+                    <p>CREATIVE</p>
+                    <canvas width="300" height="20" class="skills-canvas" id="skills-creative"></canvas>
+                    <p>TEAMWORK</p>
+                    <canvas width="300" height="20" class="skills-canvas" id="skills-teamwork"></canvas>
+                    <p>INNOVATE</p>
+                    <canvas width="300" height="20" class="skills-canvas" id="skills-innovate"></canvas>
+                    <p>COMMUNICATION</p>
+                    <canvas width="300" height="20" class="skills-canvas" id="skills-communication"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="education-content">
+                    <ul>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="experience-content">
+                    <ul>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                        <li>
+                            <div class="dot">
+                                <svg width="40" height="40">
+                                    <circle r="10" cx="10" cy="10" fill="black"/>
+                                </svg>
+                            </div>
+                            <h1 class="first-line"><strong>MASTER-DEGREE</strong>LOL</h1>
+                            <h1 class="second-line">UNIVERSITY NAME</h1>
+                            <p>Text here</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header">
+                <svg width="320" height="80">
+                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
+                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <line x1="100" y1="40" x2="300" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
+                </svg>
+                <h1 class="block-title">PROFILE</h1>
+                <div class="software-content">
+                    Text here 4444444444444444444444444444444444444444444444
+                    4444444444444444444444444444444444444444444444444444444444444444444444
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
