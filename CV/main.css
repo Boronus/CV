@@ -67,7 +67,7 @@ body{
     padding-right:10px;
 }
 
-#skills-canvas{
+.skills-canvas{
     magrin:0;
     border:red solid 1px;
 }
@@ -114,3 +114,11 @@ body{
     color:black;
     padding-right:10px;
 }
+
+.software-canvas{
+    display:block;
+    magrin:0;
+    border:red solid 1px;
+}
+
+.software-content li{    list-style: none;}

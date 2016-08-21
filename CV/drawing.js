@@ -56,4 +56,52 @@ function bb()
             ctx.fillStyle = colorB;
         ctx.fill();
     }
+
+    var c=document.getElementById("photoshop-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,70,10);
+
+    var c=document.getElementById("illustrator-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,110,10);
+
+    var c=document.getElementById("indesign-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,20,10);
+
+    var c=document.getElementById("dreamweaver-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,135,10);
+
+    var c=document.getElementById("aftereffects-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,30,10);
+
+    var c=document.getElementById("htmlcss-skills");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle = colorB;
+    ctx.fillRect(0,0,150,10);
+    ctx.fillStyle = colorB;
+    ctx.fillStyle = colorA;
+    ctx.fillRect(0,0,80,10);
 }
