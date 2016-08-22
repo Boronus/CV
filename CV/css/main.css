@@ -1,23 +1,34 @@
+@font-face {
+    font-family: MyriadPro-LightSemiExt;
+    src: url(../fonts/MyriadPro-LightSemiExt.otf);
+}
+
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url(../fonts/MyriadPro-Bold.otf);
+}
+
+
 body {
     background-color: white;
+    font-family:'MyriadPro-LightSemiExt', sans-serif;
 }
 
 .left {
     display:inline-block;
     position: relative;
     vertical-align: top;
-    margin-left: 100px;
+    margin-left: 0px;
     padding:0;
-    width: 400px;
+    width: 300px;
     height: 100%;
-    border: red solid 1px;
 }
 
 .right {
     display:inline-block;
     position: relative;
     vertical-align: top;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: 0px;
     padding:0;
     width: 600px;
@@ -29,7 +40,6 @@ body {
     margin:0px;
     position:relative;
     width:100%;
-    border:red solid 1px;
 }
 
 .block-title {
@@ -50,4 +60,21 @@ body {
 
 .block-header {
     text-transform: uppercase;
+    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
+
+.dot-bar > .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(61,108,176);
+    padding: 1px;
+    margin-top: 0px;
+}
+
+.dot-bar > .none {
+    background: gray;
 }

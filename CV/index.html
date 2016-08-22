@@ -8,29 +8,29 @@
     <link href="css/experience-block.css" rel="stylesheet" type="text/css">
     <link href="css/software-block.css" rel="stylesheet" type="text/css">
     <title>My CV</title>
-    <script src="drawing.js" type="text/javascript"></script>
 </head>
-<body onLoad="bb()">
+<body>
     <div class="left">
         <div class="main-block">
             <div class="block-header">
                 <div  class="block-decoration">
-                    <svg width="200" height="180" style="border: 1px solid #333333;">
-                        <circle r="70" cx="100" cy="100" fill="rgb(61,108,176)"/>
-                        <circle r="75" cx="100" cy="100" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <svg width="200" height="190">
+                        <circle r="60" cx="108" cy="114" fill="rgb(61,108,176)"/>
+                        <circle r="70" cx="108" cy="114" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
                     </svg>
                 </div>
+            </div>
+            <div class="main-content">
                 <h1 class="main-name">Name here</h1>
                 <h1 class="main-surname">Surname</h1>
                 <h1 class="main-position">Graphic designer</h1>
             </div>
-
         </div>
         <div class="block">
             <div class="block-header">
                 <svg width="auto" height="80" style="border: 1px solid #333333;">
-                    <circle r="30" cx="40" cy="40" fill="rgb(61,108,176)"/>
-                    <circle r="35" cx="40" cy="40" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
+                    <circle r="20" cx="40" cy="27" fill="rgb(61,108,176)"/>
+                    <circle r="25" cx="40" cy="27" fill="none" stroke="rgb(61,108,176)" stroke-width="1"/>
                     <line x1="100" y1="40" x2="1500" y2="40" stroke-width="5" stroke="rgb(61,108,176)"/>
                 </svg>
                 <h1 class="block-title">Profile</h1>
@@ -82,13 +82,69 @@
             </div>
                 <div class="skills-content">
                     <p>Creative</p>
-                    <canvas width="300" height="20" class="skills-canvas" id="skills-creative"></canvas>
+                    <div class="dot-bar">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                    </div>
                     <p>Teamwork</p>
-                    <canvas width="300" height="20" class="skills-canvas" id="skills-teamwork"></canvas>
+                    <div class="dot-bar">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot none"></div>
+                    </div>
                     <p>Innovate</p>
-                    <canvas width="300" height="20" class="skills-canvas" id="skills-innovate"></canvas>
+                    <div class="dot-bar">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                        <div class="dot none"></div>
+                    </div>
                     <p>Communication</p>
-                    <canvas width="300" height="20" class="skills-canvas" id="skills-communication"></canvas>
+                    <div class="dot-bar">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot none"></div>
+                    </div>
                 </div>
 
         </div>
@@ -205,14 +261,44 @@
             </div>
                 <div class="software-content">
                     <ul>
-                        <li>Photoshop<canvas width="150" height="10" class="software-canvas" id="photoshop-skills"></canvas></li>
-                        <li>Illustrator<canvas width="150" height="10" class="software-canvas" id="illustrator-skills"></canvas></li>
-                        <li>Indesign<canvas width="150" height="10" class="software-canvas" id="indesign-skills"></canvas></li>
+                        <li>
+                            <p>Photoshop</p>
+                            <div width="150" height="10" class="software-canvas-back">
+                                <canvas height="10" class="software-canvas photoshop"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Illustrator</p>
+                            <div width="150" height="10" class="software-canvas-back">
+                                <canvas height="10" class="software-canvas illustrator"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Indesign</p>
+                            <div width="150" height="10" class="software-canvas-back">
+                                <canvas height="10" class="software-canvas indesign"></canvas>
+                            </div>
+                        </li>
                     </ul>
                     <ul>
-                        <li>Dreamweawer<canvas width="150" height="10" class="software-canvas" id="dreamweaver-skills"></canvas></li>
-                        <li>After Effects<canvas width="150" height="10" class="software-canvas" id="aftereffects-skills"></canvas></li>
-                        <li>HTML&CSS3<canvas width="150" height="10" class="software-canvas" id="htmlcss-skills"></canvas></li>
+                        <li>
+                            <p>Dreamweawer</p>
+                            <div width="150" height="10" class="software-canvas-back">
+                                <canvas height="10" class="software-canvas dreamweawer"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <p>After Effects</p>
+                            <div width="150" height="10" class="software-canvas-back">
+                                <canvas height="10" class="software-canvas after-effects"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <p>HTML&CSS3</p>
+                            <div class="software-canvas-back">
+                                <canvas height="10" class="software-canvas html-css"></canvas>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 

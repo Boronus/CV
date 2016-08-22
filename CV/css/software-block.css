@@ -1,8 +1,11 @@
 .software-canvas {
     display:block;
     magrin:0;
-    border:red solid 1px;
+    width:100px;
+    height:10px;
+    background:rgb(61,108,176);
 }
+
 
 .software-content > ul {
     display:inline-block;
@@ -11,4 +14,11 @@
 
 .software-content > ul > li {
     list-style: none;
+    text-transform: uppercase;
+}
+
+.software-canvas-back{
+    background: gray;
+    width:150px;
+    height:10px;
 }
