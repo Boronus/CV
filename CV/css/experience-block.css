@@ -1,0 +1,28 @@
+.experience-content {
+    position:relative;
+}
+
+.experience-content > ul > li > .dot {
+    position:absolute;
+    left:10px;
+}
+
+.experience-content > ul > li {
+    list-style: none;
+}
+
+.experience-content > ul > li > .first-line {
+    font-size:15px;
+    margin:0;
+}
+
+.experience-content > ul > li > .first-line > strong {
+    color:black;
+    padding-right:10px;
+    text-transform: uppercase;
+}
+.experience-content > ul > li > .second-line {
+    font-size:15px;
+    margin:0;
+}
+

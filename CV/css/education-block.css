@@ -1,0 +1,30 @@
+.education-content {
+    position:relative;
+}
+
+.education-content > ul > li > .dot {
+    position:absolute;
+    left:10px;
+}
+
+.education-content > ul > li {
+    list-style: none;
+}
+
+.education-content > ul > li > .first-line {
+    font-size:15px;
+    margin:0;
+}
+
+.education-content > ul > li > .first-line > strong {
+    color:blue;
+    padding-right:10px;
+    text-transform: uppercase;
+}
+
+.education-content > ul > li > .second-line {
+    font-size:15px;
+    margin:0;
+}
+
+

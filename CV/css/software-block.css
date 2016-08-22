@@ -1,0 +1,14 @@
+.software-canvas {
+    display:block;
+    magrin:0;
+    border:red solid 1px;
+}
+
+.software-content > ul {
+    display:inline-block;
+    list-style: none;
+}
+
+.software-content > ul > li {
+    list-style: none;
+}
