@@ -25,7 +25,9 @@ body {
     vertical-align: top;
     margin-left: 0px;
     padding:0;
-    width: 277px;
+    padding-left:19px;
+    padding-right:10px;
+    width: 258px;
     height: 100%;
 }
 
@@ -33,10 +35,11 @@ body {
     display:inline-block;
     position: relative;
     vertical-align: top;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding:0;
-    width: 600px;
+    margin: 0px;
+    padding:0px;
+    padding-left:19px;
+    padding-top:19px;
+    width: 500px;
     height: 100%;
     border: red solid 1px;
 }
@@ -51,7 +54,7 @@ body {
     display:inline;
     position:absolute;
     top:7px;
-    left:78px;
+    left:59px;
     font-size:25px;
     color:rgb(61,108,176);
     background-color:white;
@@ -60,11 +63,6 @@ body {
 
 .block-decoration{
     magrin-right:0px;
-}
-
-.skills-canvas {
-    magrin:0;
-    border:red solid 1px;
 }
 
 .block-header {
@@ -79,16 +77,11 @@ body {
     padding:0;
 }
 
-.dot-bar > .dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: rgb(61,108,176);
-    padding: 1px;
-    margin-top: 0px;
+.right .block-header{
+    /*padding-left:20px;*/
 }
 
-.dot-bar > .none {
-    background: gray;
+.right .block-title{
+    /*left:98px;
+    padding-left:0px;*/
 }

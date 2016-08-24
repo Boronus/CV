@@ -1,5 +1,5 @@
 .skills-content{
-    padding: 14px 0 0px 28px;
+    padding: 14px 0 0px 9px;
 }
 
 .skills-content p {
@@ -31,5 +31,5 @@
 }
 
 .dot-bar > .none {
-    background: gray;
+    background: rgb(230,230,230);
 }
