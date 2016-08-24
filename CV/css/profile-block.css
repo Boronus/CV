@@ -1,0 +1,13 @@
+.block  .profile-content  p{
+    magrin:0;
+    padding:0 0 0px 28px;
+    font-family:'MyriadPro-Regular', sans-serif;
+    font-size: 9px;
+    line-height:1.28;
+    letter-spacing:0.1px;
+}
+
+.block > .profile-content > p > strong{
+
+    font-family:'MyriadPro-Bold', sans-serif;
+}

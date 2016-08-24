@@ -20,10 +20,13 @@
     padding: 0px 50%;
     magrin: 0px;
     margin-left:-100px;
+    left:14px;
 }
 
 .main-block .main-content{
+    position:relative;
     text-align: center;
+    left:15px;
 }
 
 .main-block h1 {
