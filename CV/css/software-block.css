@@ -7,7 +7,6 @@
     display:block;
     padding:0px;
     magrin:0px;
-    width:100px;
     height:13px;
     background:rgb(61,108,176);
 }
@@ -52,4 +51,28 @@
     width:166px;
     height:10px;
     padding-bottom:4px;
+}
+
+.software-content > ul >li > .software-canvas-back > .photoshop {
+    width: 70%;
+}
+
+.software-content > ul >li > .software-canvas-back > .illustrator {
+    width: 90%;
+}
+
+.software-content > ul >li > .software-canvas-back > .indesign {
+    width: 30%;
+}
+
+.software-content > ul >li > .software-canvas-back > .dreamweawer {
+    width: 50%;
+}
+
+.software-content > ul >li > .software-canvas-back > .after-effects {
+    width: 100%;
+}
+
+.software-content > ul >li > .software-canvas-back > .html-css {
+    width: 80%;
 }
