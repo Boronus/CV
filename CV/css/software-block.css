@@ -16,9 +16,14 @@
     display:inline-block;
     list-style: none;
     magrin:0px;
-    padding:13px 24px 0px 15px;
+    padding:13px 5% 0px 15px;
     font-size:0px;
 }
+
+.software-content > .software-right-column {
+    padding-right:0px;
+}
+
 
 .software-content > ul > li {
     list-style: none;

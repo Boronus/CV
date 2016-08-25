@@ -17,17 +17,27 @@
 body {
     background-color: white;
     font-family:'MyriadPro-LightSemiExt', sans-serif;
+    text-align: center;
+}
+
+.list{
+    position:relative;
+    display:inline;
+    width:80%;
+    text-align: left;
 }
 
 .left {
     display:inline-block;
     position: relative;
+    align:center;
+
     vertical-align: top;
-    margin-left: 0px;
     padding:0;
     padding-left:19px;
     padding-right:10px;
     width: 258px;
+    margin: 0px auto;
     height: 100%;
 }
 
@@ -35,11 +45,14 @@ body {
     display:inline-block;
     position: relative;
     vertical-align: top;
-    margin: 0px;
+    align:center;
+    margin: 0px auto;
     padding:0px;
     padding-left:19px;
     padding-top:19px;
-    width: 500px;
+    width: 55%;
+    min-width: 258px;
+    max-width: 550px;
     height: 100%;
 }
 
