@@ -1,24 +1,50 @@
+.software-content{
+    position:relative;
+    padding:0px;
+    magrin:0px;
+}
 .software-canvas {
     display:block;
-    magrin:0;
+    padding:0px;
+    magrin:0px;
     width:100px;
-    height:10px;
+    height:13px;
     background:rgb(61,108,176);
 }
-
 
 .software-content > ul {
     display:inline-block;
     list-style: none;
+    magrin:0px;
+    padding:13px 24px 0px 15px;
+    font-size:0px;
 }
 
 .software-content > ul > li {
     list-style: none;
     text-transform: uppercase;
+    magrin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    font-size:0px;
+}
+
+.software-content > ul > li > .software-name {
+    display:inline-block;
+    padding:0px;
+    font-size:16px;
+    magrin:0;
+    padding:0;
+    margin-top:1px;
+    padding-bottom:1px;
+    font-family:'MyriadPro-Regular', sans-serif;
 }
 
 .software-canvas-back{
+    position:relative;
+    top:-9px;
+    display:block;
     background: gray;
-    width:150px;
+    width:166px;
     height:10px;
+    padding-bottom:4px;
 }

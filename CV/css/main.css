@@ -41,7 +41,6 @@ body {
     padding-top:19px;
     width: 500px;
     height: 100%;
-    border: red solid 1px;
 }
 
 .block {
@@ -75,6 +74,7 @@ body {
 .block-header svg{
     magrin:0;
     padding:0;
+    z-scale:-1;
 }
 
 .right .block-header{
