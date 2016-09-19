@@ -1,0 +1,48 @@
+@media screen and (max-width: 650px) {
+    .list {
+        width:100%;
+    }
+
+    .left {
+        width:80%;
+        padding:0px;
+    }
+
+    .right {
+        width:80%;
+        padding:0px;
+    }
+
+    .contact-content table {
+        margin: 0 auto;
+    }
+
+    .skills-content {
+        text-align: center;
+    }
+
+    .skills-content .dot-bar {
+        display: inline;
+        margin-left:0px;
+
+    }
+
+    .software-content {
+        text-align: center;
+    }
+
+    .software-name {
+        display:inline;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .left {
+        width:96%;
+    }
+
+    .right {
+        width:96%;
+    }
+
+}

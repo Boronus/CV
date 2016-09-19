@@ -6,6 +6,7 @@
     <meta name="description" content="Тестовое задание Fullstrack Development для стажеров.">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>My CV</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/main-block.css" rel="stylesheet" type="text/css">
     <link href="css/education-block.css" rel="stylesheet" type="text/css">
@@ -14,6 +15,8 @@
     <link href="css/profile-block.css" rel="stylesheet" type="text/css">
     <link href="css/contact-block.css" rel="stylesheet" type="text/css">
     <link href="css/skills-block.css" rel="stylesheet" type="text/css">
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <div class="list">
@@ -79,15 +82,15 @@
                         </tr>
                         <tr>
                             <td class="contact-field-name">E-mail</td>
-                            <td class="contact-field">contact@domain.com</td>
+                            <td class="contact-field"><a href="mailto: contact@domain.com">contact@domain.com</a></td>
                         </tr>
                         <tr>
                             <td class="contact-field-name">Phone</td>
-                            <td class="contact-field">555-555-555</td>
+                            <td class="contact-field"><a href="tel: 555-555-555">555-555-555</a></td>
                         </tr>
                         <tr>
                             <td class="contact-field-name">Website</td>
-                            <td class="contact-field">www.yourweb.com</td>
+                            <td class="contact-field"><a href="www.yourweb.com">www.yourweb.com</a></td>
                         </tr>
                     </table>
                 </div>
@@ -317,7 +320,7 @@
                 <h2 class="block-title">Software</h2>
             </div>
                 <div class="software-content">
-                    <ul>
+                    <ul class="software-left-column">
                         <li>
                             <p class="software-name">Photoshop</p>
                             <div class="software-canvas-back">

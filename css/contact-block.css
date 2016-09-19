@@ -21,3 +21,8 @@
     font-family:'MyriadPro-Regular', sans-serif;
     font-size: 12px;
 }
+
+.contact-block a {
+    text-decoration: none;
+    color:black;
+}

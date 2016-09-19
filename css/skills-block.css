@@ -13,8 +13,7 @@
 }
 
 .dot-bar{
-    display:block;
-    align: center;
+    display:inline-block;
     margin:0px 0px 9px 27px;
     padding:0px 0px 0px 0px;
 }
