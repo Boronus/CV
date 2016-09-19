@@ -7,19 +7,13 @@
 .main-block .block-header {
     position:relative;
     display:inline-block;
-    align:center;
     width:100%;
-    hight:180px;
     padding:0;
-    margin:0;
 }
 .main-block .block-decoration {
     position:relative;
-    align:center;
     width:200px;
-    hight:180px;
     padding: 0px 50%;
-    magrin: 0px;
     margin-left:-100px;
     left:14px;
 }

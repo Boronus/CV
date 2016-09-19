@@ -8,8 +8,6 @@
 }
 
 .experience-content > ul {
-    padding-top:0px;
-    padding-bottom:0px;
     margin-bottom:11px;
     margin-top:25px;
     margin-left:1px;
@@ -43,7 +41,6 @@
     width:100%;
     margin:0;
     padding:0;
-    magrin-top:0px;
     margin-bottom:0px;
     text-transform: uppercase;
 }
@@ -52,9 +49,7 @@
     display:inline-block;
     margin:0;
     padding:0;
-    magrin-top:0px;
     margin-bottom:1px;
-    padding:0px 0px;
     font-size:10px;
 }
 
