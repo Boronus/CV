@@ -1,0 +1,111 @@
+@font-face {
+    font-family: MyriadPro-LightSemiExt;
+    src: url(../fonts/MyriadPro-LightSemiExt.otf),
+    url(../fonts/MyriadPro-LightSemiExt.ttf),
+    url(../fonts/MyriadPro-LightSemiExt.woff),
+    url(../fonts/MyriadPro-LightSemiExt.svg);
+
+}
+
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url(../fonts/MyriadPro-Bold.otf),
+    url(../fonts/MyriadPro-Bold.ttf),
+    url(../fonts/MyriadPro-Bold.woff),
+    url(../fonts/MyriadPro-Bold.svg);
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url(../fonts/MyriadPro-Regular.otf),
+    url(../fonts/MyriadPro-Regular.ttf),
+    url(../fonts/MyriadPro-Regular.woff),
+    url(../fonts/MyriadPro-Regular.svg);
+}
+
+
+body {
+    background-color: white;
+    font-family:'MyriadPro-LightSemiExt', sans-serif;
+    text-align: center;
+}
+
+.list{
+    position:relative;
+    display:inline;
+    width:80%;
+    text-align: left;
+}
+
+.left {
+    display:inline-block;
+    position: relative;
+    align:center;
+
+    vertical-align: top;
+    padding:0;
+    padding-left:19px;
+    padding-right:10px;
+    width: 258px;
+    min-width: 240px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.right {
+    display:inline-block;
+    position: relative;
+    vertical-align: top;
+    align:center;
+    margin: 0px auto;
+    padding:0px;
+    padding-left:19px;
+    padding-top:19px;
+    width: 50%;
+    min-width: 240px;
+    max-width: 550px;
+    height: 100%;
+}
+
+.block {
+    margin:0px;
+    position:relative;
+    width:100%;
+}
+
+.block-title {
+    display:inline;
+    position:absolute;
+    top:7px;
+    left:59px;
+    padding-left:1%;
+    font-size:25px;
+    color:rgb(61,108,176);
+    background-color:white;
+    padding-right:5px;
+}
+
+.block-decoration{
+    magrin-right:0px;
+}
+
+.block-header {
+    text-transform: uppercase;
+    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
+    padding: 10px 0 0px 10px;
+    margin-bottom:-7px;
+}
+
+.block-header svg{
+    magrin:0;
+    padding:0;
+}
+
+.block-header img {
+    position:absolute;
+    top:22px;
+    left:17px;
+    width: 30px;
+    height:30px;
+}
