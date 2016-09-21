@@ -30,6 +30,7 @@ body {
 }
 
 .list{
+    position: relative;
     display:inline;
     text-align: left;
 }
@@ -38,6 +39,7 @@ body {
     display:inline-block;
     vertical-align: top;
     width: 248px;
+    min-width:248px;
     margin-right: 41px;
 }
 
@@ -45,9 +47,11 @@ body {
     display:inline-block;
     vertical-align: top;
     width: 380px;
+    min-width:248px;
 }
 
 .block-header {
+    position:relative;
     text-transform: uppercase;
     font-family:'MyriadPro-Bold', sans-serif;
     font-weight: bold;
@@ -59,11 +63,11 @@ body {
     z-index: -1;
 }
 
-.left .block-header svg {
+.left .block-header {
     width: 248px;
 }
 
-.right .block-header svg {
+.right .block-header {
     width: 380px;
 }
 

@@ -1,43 +1,51 @@
-@media screen and (max-width: 650px) {
-    .list {
-        width:100%;
-    }
+@media screen and (max-width: 700px) {
 
     .left {
         width:80%;
-        padding:0px;
+        margin-right: 0;
+    }
+
+    .contact-block .contact-content table{
+        border-collapse: collapse;
     }
 
     .right {
         width:80%;
-        padding:0px;
     }
 
     .skills-content {
         text-align: center;
     }
 
-    .skills-content .dot-bar {
-        display: inline;
-        margin-left:0px;
+    .contact-block .contact-content table{
+        margin: 0 auto;
     }
 
-    .software-content {
-        text-align: center;
+    .left .block-header {
+        width: 100%;
     }
 
-    .software-name {
-        display:inline;
+    .right .block-header {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
     .left {
-        width:96%;
+        width:90%;
     }
 
     .right {
-        width:96%;
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .left {
+        width:100%;
     }
 
+    .right {
+        width:100%;
+    }
 }

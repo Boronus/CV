@@ -1,18 +1,17 @@
 .skills-content{
-    padding-top: 12px;
+    padding-top: 7px;
+    text-align: center;
 }
 
 .skills-content p {
     display:block;
     font-size:15px;
-    text-align: center;
     text-transform: uppercase;
-    margin:2px 0px 0px 2px;
+    margin:9px 0 0 2px;
 }
 
 .dot-bar{
-    display:inline-block;
-    margin:0px 0px 7px 27px;
+    display:inline;
 }
 
 .dot-bar > .dot {
