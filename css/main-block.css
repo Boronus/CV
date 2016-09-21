@@ -5,7 +5,7 @@
 
 .main-block .block-decoration svg{
     display: inline;
-    margin: 8px 0 13px;
+    margin: 8px 0 15px;
 }
 
 .main-block .main-content{
@@ -13,7 +13,7 @@
 }
 
 .main-block p {
-    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
     margin: 0;
     color:black;
 }
@@ -23,21 +23,20 @@
 }
 
 .main-block .main-name {
-    font-family:'MyriadPro-LightSemiExt', sans-serif;
+    font-weight: 300;
     font-size:32px;
     line-height: 0.8;
 
 }
 
 .main-block .main-surname {
-    font-family:'MyriadPro-Bold', sans-serif;
     font-size:37px;
     font-weight: bold;
     letter-spacing:0;
 }
 
 .main-block .main-position {
-    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
     font-size:15px;
     letter-spacing:-0.37px;
 }

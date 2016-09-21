@@ -23,7 +23,7 @@
     padding:2px 0;
     padding-right:7px;
     text-transform: uppercase;
-    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
 }
 
 .experience-content > ul > li > .first-line-continue {
@@ -32,6 +32,7 @@
     margin:0;
     letter-spacing:-0.6px;
     padding:2px 0;
+    font-weight: normal;
 }
 
 .experience-content > ul > li > .second-line {
@@ -42,6 +43,7 @@
     padding:0;
     letter-spacing:-0.5px;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .experience-content > ul > li > .third-line {
