@@ -1,59 +1,44 @@
 .main-block {
-    position:relative;
-    width:100%;
-    margin:0 0 20px 0;
-    left:-10px;
+    text-align: center;
+    padding:0 0 42px 5px;
 }
-.main-block .block-header {
-    position:relative;
-    display:inline-block;
-    width:100%;
-    padding:0;
-}
-.main-block .block-decoration {
-    position:relative;
-    width:200px;
-    padding: 0px 50%;
-    margin-left:-100px;
-    left:14px;
+
+.main-block .block-decoration svg{
+    display: inline;
+    margin: 8px 0 13px;
 }
 
 .main-block .main-content{
-    position:relative;
     text-align: center;
-    left:15px;
 }
 
 .main-block p {
     font-family:'MyriadPro-Bold', sans-serif;
-    padding: 0;
     margin: 0;
     color:black;
 }
 
 .main-content{
     text-transform: uppercase;
-    padding-top:7px;
-    padding-left:5px;
-    line-height:32px;
 }
+
 .main-block .main-name {
     font-family:'MyriadPro-LightSemiExt', sans-serif;
-    font-size:30px;
+    font-size:32px;
+    line-height: 0.8;
+
 }
 
 .main-block .main-surname {
     font-family:'MyriadPro-Bold', sans-serif;
     font-size:37px;
     font-weight: bold;
-    padding-left:10px;
-    letter-spacing:0px;
+    letter-spacing:0;
 }
 
 .main-block .main-position {
     font-family:'MyriadPro-Bold', sans-serif;
     font-size:15px;
-    padding-left:12px;
     letter-spacing:-0.37px;
 }
 

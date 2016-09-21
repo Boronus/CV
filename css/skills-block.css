@@ -1,5 +1,5 @@
 .skills-content{
-    padding: 14px 0 0px 9px;
+    padding-top: 12px;
 }
 
 .skills-content p {
@@ -8,7 +8,6 @@
     text-align: center;
     text-transform: uppercase;
     margin:2px 0px 0px 2px;
-
 }
 
 .dot-bar{
