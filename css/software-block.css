@@ -1,5 +1,5 @@
 .software-content {
-    padding: 15px 0 0 1%;
+    padding: 15px 1% 0 1%;
 }
 
 .software-canvas {
@@ -15,8 +15,8 @@
     font-size:0px;
 }
 
-.software-content > .software-left-column {
-    margin-right: 10%;
+.software-content > .software-right-column {
+    float: right;
 }
 
 .software-content > ul > li {
@@ -31,7 +31,6 @@
     margin: 0 0 7px 0;
     display:inline-block;
     font-size:16px;
-    font-family:'MyriadPro-Regular', sans-serif;
 }
 
 .software-canvas-back{

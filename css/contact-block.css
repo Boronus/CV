@@ -6,20 +6,23 @@
 .contact-block .contact-content table{
     border-collapse: collapse;
 }
-
+@media screen and (max-width: 700px) {
+    .contact-block .contact-content table {
+        margin: 0 auto;
+    }
+}
 .contact-block .contact-content  td{
     padding: 9px 24px 9px 0;
 }
 
 .contact-block .contact-content  .contact-field-name{
-    font-family:'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
     color:rgb(61,108,176);
     font-size: 12px;
     text-transform: uppercase;
 }
 
 .contact-block .contact-content  .contact-field{
-    font-family:'MyriadPro-Regular', sans-serif;
     font-size: 12px;
 }
 

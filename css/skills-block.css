@@ -1,13 +1,19 @@
 .skills-content{
-    padding-top: 7px;
+    padding-top: 4px;
     text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .skills-content {
+        text-align: center;
+    }
 }
 
 .skills-content p {
     display:block;
     font-size:15px;
     text-transform: uppercase;
-    margin:9px 0 0 2px;
+    margin:12px 2px 3px;
 }
 
 .dot-bar{
@@ -21,7 +27,7 @@
     border-radius: 50%;
     background: rgb(61,108,176);
     padding: 1px;
-    margin-right: 3px;
+    margin-right: 4px;
 }
 
 .dot-bar > .none {
