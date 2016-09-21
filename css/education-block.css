@@ -1,29 +1,25 @@
-.education-content {
-    position:relative;
-}
-
 .education-content > ul > li > .dot {
     position:absolute;
-    left:10px;
+    left:-24px;
+    top:5px;
 }
 
 .education-content > ul {
-    padding-top:0px;
-    padding-bottom:0px;
-    margin-bottom:10px;
-    magrin-left:1px;
+    margin:15px 0 25px 31px ;
+    padding:0;
 }
 .education-content > ul > li {
+    position:relative;
+    padding-bottom:6px;
     list-style: none;
-    font-size:0px;
-
+    font-size:0;
 }
 
 .education-content > ul > li > .first-line {
     display:inline-block;
     font-size:16px;
     margin:0;
-    padding:2px 0px 2px 0px;
+    padding:2px 0;
     color:rgb(61,108,176);
     padding-right:7px;
     text-transform: uppercase;
@@ -34,8 +30,8 @@
     display:inline-block;
     font-size:16px;
     margin:0;
-    letter-spacing:-1px;
-    padding:2px 0px 0px 0px;
+    letter-spacing:-0.6px;
+    padding:2px 0;
 }
 
 .education-content > ul > li > .second-line {
@@ -44,8 +40,7 @@
     width:100%;
     margin:0;
     padding:0;
-    magrin-top:0px;
-    margin-bottom:0px;
+    letter-spacing:-0.5px;
     text-transform: uppercase;
 }
 
@@ -53,10 +48,6 @@
     display:inline-block;
     margin:0;
     padding:0;
-    magrin-top:0px;
     margin-bottom:1px;
-    padding:0px 0px;
-    font-size:10px;
+    font-size:9px;
 }
-
-

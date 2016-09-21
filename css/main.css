@@ -25,87 +25,73 @@
 
 
 body {
-    background-color: white;
     font-family:'MyriadPro-LightSemiExt', sans-serif;
     text-align: center;
 }
 
 .list{
-    position:relative;
+    position: relative;
     display:inline;
-    width:80%;
     text-align: left;
 }
 
 .left {
     display:inline-block;
-    position: relative;
-    align:center;
-
     vertical-align: top;
-    padding:0;
-    padding-left:19px;
-    padding-right:10px;
-    width: 258px;
-    min-width: 240px;
-    margin: 0px auto;
-    height: 100%;
+    width: 248px;
+    min-width:248px;
+    margin-right: 41px;
 }
 
 .right {
     display:inline-block;
-    position: relative;
     vertical-align: top;
-    align:center;
-    margin: 0px auto;
-    padding:0px;
-    padding-left:19px;
-    padding-top:19px;
-    width: 50%;
-    min-width: 240px;
-    max-width: 550px;
-    height: 100%;
-}
-
-.block {
-    margin:0px;
-    position:relative;
-    width:100%;
-}
-
-.block-title {
-    display:inline;
-    position:absolute;
-    top:7px;
-    left:59px;
-    padding-left:1%;
-    font-size:25px;
-    color:rgb(61,108,176);
-    background-color:white;
-    padding-right:5px;
-}
-
-.block-decoration{
-    magrin-right:0px;
+    width: 380px;
+    min-width:248px;
 }
 
 .block-header {
+    position:relative;
     text-transform: uppercase;
     font-family:'MyriadPro-Bold', sans-serif;
     font-weight: bold;
-    padding: 10px 0 0px 10px;
-    margin-bottom:-7px;
+    height: 44px;
 }
 
-.block-header svg{
-    magrin:0;
-    padding:0;
+.block-header svg {
+    position:absolute;
+    z-index: -1;
+}
+
+.left .block-header {
+    width: 248px;
+}
+
+.right .block-header {
+    width: 380px;
 }
 
 .block-header img {
-    position:absolute;
-    top:22px;
-    left:17px;
+    display: inline-block;
+    padding: 7px;
     width: 30px;
     height:30px;
+}
+
+.block-title {
+    display: inline-block;
+    margin:9px 0 0 2px;
+    padding-right: 8px;
+    vertical-align: top;
+    color:rgb(61,108,176);
+    background-color:white;
+    letter-spacing:0.5px;
+}
+
+.right .block-header .block-title {
+    padding-left: 7px;
+}
+
+.block {
+    width:100%;
 }
