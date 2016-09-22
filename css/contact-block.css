@@ -1,28 +1,32 @@
 .contact-block .contact-content {
-    border-collapse: collapse;
     padding: 10px 0 17px 0;
 }
 
-.contact-block .contact-content table{
-    border-collapse: collapse;
+.contact-block .contact-content .contact-table {
+    display: table;
 }
+
 @media screen and (max-width: 700px) {
-    .contact-block .contact-content table {
+    .contact-block .contact-content .contact-table {
         margin: 0 auto;
     }
 }
-.contact-block .contact-content  td{
-    padding: 9px 24px 9px 0;
+
+.contact-block .contact-content .contact-table .contact-row {
+    display: table-row;
 }
 
-.contact-block .contact-content  .contact-field-name{
+.contact-block .contact-content  .contact-field-name {
+    display: table-cell;
+    padding: 9px 24px 9px 0;
     font-weight: bold;
     color:rgb(61,108,176);
     font-size: 12px;
     text-transform: uppercase;
 }
 
-.contact-block .contact-content  .contact-field{
+.contact-block .contact-content  .contact-field {
+    display: table-cell;
     font-size: 12px;
 }
 
